@@ -114,7 +114,7 @@ importers:
       '@vuepress/utils': 2.0.0-beta.52
       sass-loader: 13.1.0
       vue: 3.2.41
-      vue-router: 4.1.5
+      vue-router: 4.1.6
       vuepress-plugin-blog2: workspace:*
       vuepress-vite: 2.0.0-beta.52
       vuepress-webpack: 2.0.0-beta.52
@@ -126,7 +126,7 @@ importers:
       '@vuepress/utils': 2.0.0-beta.52
       sass-loader: 13.1.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
       vuepress-plugin-blog2: link:../../packages/blog2
       vuepress-vite: 2.0.0-beta.52_sztk7qwle5jsnhn6dp52rqvniu
       vuepress-webpack: 2.0.0-beta.52_vue@3.2.41
@@ -3669,7 +3669,7 @@ packages:
       rollup: 2.79.1
       vite: 3.1.8
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - less
       - sass
@@ -3693,7 +3693,7 @@ packages:
       rollup: 2.79.1
       vite: 3.1.8_sass@1.55.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - less
       - sass
@@ -3726,7 +3726,7 @@ packages:
       style-loader: 3.3.1_webpack@5.74.0
       vue: 3.2.41
       vue-loader: 17.0.0_webpack@5.74.0
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
       webpack: 5.74.0
       webpack-chain: 6.5.1
       webpack-dev-server: 4.11.1_webpack@5.74.0
@@ -3761,7 +3761,7 @@ packages:
       '@vue/devtools-api': 6.4.5
       '@vuepress/shared': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
 
   /@vuepress/core/2.0.0-beta.52:
     resolution: {integrity: sha512-ZPOEq4zUPSiDEsfGG7AzuqFA4CC3fo/9X2VzpH+H0GeOdOnPnP7jkJuaJ3Qgkr8220C6L8iEpssGfWjmfbLMKg==}
@@ -3804,7 +3804,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.52
       ts-debounce: 4.0.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
 
@@ -3844,7 +3844,7 @@ packages:
       '@vuepress/utils': 2.0.0-beta.52
       ts-debounce: 4.0.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - '@algolia/client-search'
       - '@types/react'
@@ -3891,7 +3891,7 @@ packages:
       '@vuepress/core': 2.0.0-beta.52
       '@vuepress/utils': 2.0.0-beta.52
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - supports-color
 
@@ -3994,7 +3994,7 @@ packages:
       sass: 1.55.0
       sass-loader: 13.1.0
       vue: 3.2.41
-      vue-router: 4.1.5_vue@3.2.41
+      vue-router: 4.1.6_vue@3.2.41
     transitivePeerDependencies:
       - '@vue/composition-api'
       - supports-color
@@ -11891,6 +11891,15 @@ packages:
 
   /vue-router/4.1.5_vue@3.2.41:
     resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      '@vue/devtools-api': 6.4.5
+      vue: 3.2.41
+    dev: false
+
+  /vue-router/4.1.6_vue@3.2.41:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
